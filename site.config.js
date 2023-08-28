@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "seung-je's Notion blog",
+    description: "이 블로그는 공부한 내용을 정리하는 용도로 주로 사용됩니다",
   },
 
   // CONFIG configration (required)
