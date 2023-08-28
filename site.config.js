@@ -1,14 +1,14 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "seung-zedd",
+    image: "file:///C:/Users/sdok1/Documents/Tips%20for%20being%20developer/more-than-log%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EA%B4%80%EB%A0%A8/notion-avatar-1693197127066.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Computer-Engineering Student(Undergraduate)",
+    bio: "You never fail until you stop trying",
+    email: "csz0209@gmail.com",
+    linkedin: "seung-zedd",
+    github: "Seung-zedd",
+    instagram: "seung_j.95",
   },
   projects: [
     {
@@ -35,13 +35,13 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
